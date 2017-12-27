@@ -1,5 +1,9 @@
 package model
 
+import (
+	"time"
+)
+
 type Comment struct {
 	ID        int
 	Content   string
